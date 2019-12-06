@@ -15,10 +15,10 @@
   "author": "Arthur Puyou <arthur@puyou.fr>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^4.5.0",
+    "eslint": "^6.7.2",
     "identity-obj-proxy": "^3.0.0",
     "if-env": "^1.0.0",
-    "jest": "^21.2.1",
+    "jest": "^24.9.0",
     "node-sass": "^4.5.3",
     "preact-cli": "^2.0.2",
     "preact-widget-scripts": "^0.6.0",
