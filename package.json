@@ -1,6 +1,6 @@
 {
   "name": "store-badge",
-  "version": "0.1.2",
+  "version": "1.0.1",
   "description": "Add App Store and Google Play badges on your website",
   "browser": "build/bundle.js",
   "main": "src/index.js",
