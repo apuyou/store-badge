@@ -33,7 +33,10 @@ function Widget({ dataName, dataAppStoreUrl, dataGooglePlayUrl }) {
   );
 
   const badges = [];
-  if (navigator.userAgent.indexOf('iOS') !== -1) {
+  if (
+    navigator.userAgent.indexOf('iPhone') !== -1 ||
+    navigator.userAgent.indexOf('iPad') !== -1
+  ) {
     badges.push(appStore);
   } else if (navigator.userAgent.indexOf('Android') !== -1) {
     badges.push(googlePlay);
