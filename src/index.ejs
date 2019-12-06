@@ -6,7 +6,7 @@
     <title>Widget Template</title>
 
     <style>
-      .preview {
+      body > div {
         width: 100%;
         max-width: 1100px;
         margin: 80px auto;
@@ -14,7 +14,7 @@
         position: relative;
       }
 
-      .preview::before {
+      body > div::before {
         content: 'WIDGET PREVIEW';
         position: absolute;
         display: block;
@@ -26,30 +26,25 @@
   </head>
 
   <body>
-    <div data-widget-host="habitat" class="preview">
-      <script type="text/props">
-        { "color": "red"}
-      </script>
+    <div>
+      <h2>Cheerswipe</h2>
+      <div
+        class="store-badge"
+        data-name="Cheerswipe"
+        data-google-play-url="https://play.google.com/store/apps/details?id=fr.puyou.cheerswipe"
+        data-app-store-url="https://apps.apple.com/us/app/cheerswipe/id1468158095?ls=1"
+      ></div>
+    </div>
+
+    <div>
+      <h2>Revelio</h2>
+      <div
+        class="store-badge"
+        data-name="Revelio"
+        data-google-play-url="https://play.google.com/store/apps/details?id=com.tomhouse.myMovieDB"
+        data-app-store-url="https://apps.apple.com/fr/app/revelio-app/id1458707210?ls=1"
+      ></div>
     </div>
     <script async src="/bundle.js"></script>
   </body>
 </html>
-
-<!-- 
-<div
-class="store-badge"
-data-name="Cheerswipe"
-data-google-play-url="https://play.google.com/store/apps/details?id=fr.puyou.cheerswipe"
-data-app-store-url="https://apps.apple.com/us/app/cheerswipe/id1468158095?ls=1"
-></div>
-</div>
-
-<div>
-<h2>Revelio</h2>
-<div
-class="store-badge"
-data-name="Revelio"
-data-google-play-url="https://play.google.com/store/apps/details?id=com.tomhouse.myMovieDB"
-data-app-store-url="https://apps.apple.com/fr/app/revelio-app/id1458707210?ls=1"
-></div>
-</div> -->
