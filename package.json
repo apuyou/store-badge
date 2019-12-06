@@ -19,19 +19,15 @@
     "identity-obj-proxy": "^3.0.0",
     "if-env": "^1.0.0",
     "jest": "^21.2.1",
-    "microbundle": "^0.6.0",
     "node-sass": "^4.5.3",
     "preact-cli": "^2.0.2",
-    "preact-render-to-string": "^3.7.0",
     "preact-widget-scripts": "^0.6.0",
-    "prettier": "^1.19.1",
-    "sass-loader": "^6.0.6"
+    "prettier": "^1.19.1"
   },
   "dependencies": {
     "preact": "^8.5.2",
     "preact-compat": "^3.17.0",
     "preact-habitat": "^3.1.0",
-    "preact-render-to-string": "^4.1.0",
     "preact-router": "^2.5.7"
   },
   "jest": {
