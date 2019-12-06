@@ -1,4 +1,4 @@
-import { h } from "preact";
+import { h } from 'preact';
 
 import appStoreBadge from './appstore.svg';
 import googlePlayBadge from './googleplay.svg';

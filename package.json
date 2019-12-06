@@ -27,6 +27,7 @@
     "preact-cli": "^2.0.2",
     "preact-render-to-string": "^3.7.0",
     "preact-widget-scripts": "^0.6.0",
+    "prettier": "^1.19.1",
     "sass-loader": "^6.0.6"
   },
   "dependencies": {
