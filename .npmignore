@@ -1,0 +1,6 @@
+.babelrc
+.prettierrc
+preact.config.js
+build/*
+!build/bundle.js
+!build/bundle.js.map
