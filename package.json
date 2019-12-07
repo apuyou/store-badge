@@ -13,6 +13,7 @@
   "keywords": [],
   "author": "Arthur Puyou <arthur@puyou.fr>",
   "license": "MIT",
+  "homepage": "https://apuyou.github.io/store-badge/",
   "devDependencies": {
     "eslint": "^6.7.2",
     "identity-obj-proxy": "^3.0.0",
