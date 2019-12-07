@@ -25,6 +25,8 @@ If the browser is an iPhone or iPad, only the App Store badge will be displayed.
 <script async src="https://cdn.jsdelivr.net/npm/store-badge@1/build/bundle.js"></script>
 ```
 
+See [demo](https://apuyou.github.io/store-badge/demo)
+
 ## Customization
 
 If you wish to add some CSS to the badges, you can use the classes `store-badge-app-store` and `store-badge-google-play`.
