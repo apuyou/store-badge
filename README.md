@@ -1,4 +1,9 @@
 # store-badge
+
+![npm](https://img.shields.io/npm/v/store-badge)
+![npm bundle size](https://img.shields.io/bundlephobia/min/store-badge)
+![GitHub](https://img.shields.io/github/license/apuyou/store-badge)
+![npm](https://img.shields.io/npm/dt/store-badge)
 [![](https://data.jsdelivr.com/v1/package/npm/store-badge/badge)](https://www.jsdelivr.com/package/npm/store-badge)
 
 ## Introduction
