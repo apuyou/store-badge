@@ -11,5 +11,7 @@ export default (config, env, helpers) => {
 
   // Force all files to be inlined
   const fileLoaderRule = helpers.getLoadersByName(config, 'file-loader')[0];
-  fileLoaderRule.rule.loader = 'url-loader';
+  if (fileLoaderRule) {
+    fileLoaderRule.rule.loader = 'url-loader';
+  }
 };
