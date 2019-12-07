@@ -7,8 +7,7 @@
   "scripts": {
     "test": "NODE_ENV=test jest",
     "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev",
-    "build": "preact build --no-prerender --clean --template src/index.ejs --service-worker false",
-    "serve": "npm run build && preact serve",
+    "build": "preact build --no-prerender --template src/index.ejs --no-sw --no-esm",
     "dev": "preact watch --template src/index.ejs"
   },
   "keywords": [],
@@ -20,7 +19,7 @@
     "if-env": "^1.0.0",
     "jest": "^24.9.0",
     "node-sass": "^4.5.3",
-    "preact-cli": "^2.0.2",
+    "preact-cli": "^3.0.0-rc.6",
     "preact-widget-scripts": "^0.6.0",
     "prettier": "^1.19.1"
   },
