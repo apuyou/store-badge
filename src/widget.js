@@ -45,7 +45,7 @@ function Widget({ dataName, dataAppStoreUrl, dataGooglePlayUrl }) {
     badges.push(googlePlay);
   }
 
-  return <div>{badges.map(badge => badge)}</div>;
+  return <div>{badges}</div>;
 }
 
 export default Widget;
