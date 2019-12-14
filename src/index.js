@@ -3,7 +3,7 @@ let poly = require('preact-cli/lib/lib/webpack/polyfills');
 import { h } from 'preact';
 import habitat from 'preact-habitat';
 
-import Widget from './widget';
+import Widget from 'react-store-badge';
 
 let _habitat = habitat(Widget);
 

@@ -8468,6 +8468,11 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
+react-store-badge@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-store-badge/-/react-store-badge-1.0.0.tgz#3748ca0f90dfbaf27540a2b2788cfc764b2b41c3"
+  integrity sha512-KKghsOq6wh/oeELG0z5GuipPibxXjyH2tbVtPBbmi9NrIlHxoJCJNKhbHFrscrluS/pqog0WzfY+kqvWo8bRwA==
+
 read-pkg-up@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/read-pkg-up/-/read-pkg-up-1.0.1.tgz#9d63c13276c065918d57f002a57f40a1b643fb02"
