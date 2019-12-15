@@ -10,9 +10,21 @@
     "build": "preact build --no-prerender --template src/index.ejs --no-sw --no-esm",
     "dev": "preact watch --template src/index.ejs"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apuyou/store-badge.git"
+  },
+  "keywords": [
+    "app store",
+    "google play",
+    "badge",
+    "download"
+  ],
   "author": "Arthur Puyou <arthur@puyou.fr>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apuyou/store-badge/issues"
+  },
   "homepage": "https://apuyou.github.io/store-badge/",
   "devDependencies": {
     "eslint": "^6.7.2",
