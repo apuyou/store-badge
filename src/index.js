@@ -5,7 +5,17 @@ import habitat from 'preact-habitat';
 
 import Widget from 'react-store-badge';
 
-let _habitat = habitat(Widget);
+const proxy = ({ dataName, dataAppStoreUrl, dataGooglePlayUrl }) => {
+  return (
+    <Widget
+      name={dataName}
+      appStoreUrl={dataAppStoreUrl}
+      googlePlayUrl={dataGooglePlayUrl}
+    />
+  );
+};
+
+let _habitat = habitat(proxy);
 
 _habitat.render({
   selector: '.store-badge',
