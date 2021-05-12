@@ -27,7 +27,6 @@
   },
   "homepage": "https://apuyou.github.io/store-badge/",
   "devDependencies": {
-    "eslint": "^6.7.2",
     "identity-obj-proxy": "^3.0.0",
     "if-env": "^1.0.0",
     "jest": "^26.1.0",
