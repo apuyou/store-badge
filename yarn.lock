@@ -8217,9 +8217,9 @@ react-refresh@0.8.3:
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
 react-store-badge@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-store-badge/-/react-store-badge-2.0.0.tgz#f5ec6ea8513f54059eba1ac84052aef2f15ad7fc"
-  integrity sha512-70fhw6AZV2gea78ROvytSMN+Le+tQXhhT7cthCy3mc2W/PWb1f67CPHhV3TqCDlMjnKKSXj6ScrGNXy++LGRNA==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/react-store-badge/-/react-store-badge-2.0.1.tgz#639b98bae12483b20b28babc59216deaef1c8955"
+  integrity sha512-COyW0W+N7C41ROaTAponcfg5P825WJo6hcBQQz018Cvbc+gKM0AHaCkXN5fiYIMEu0I+U3hMDSy8HKt/9v/XQA==
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
