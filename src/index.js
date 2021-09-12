@@ -5,12 +5,19 @@ import habitat from 'preact-habitat';
 
 import Widget from 'react-store-badge';
 
-const proxy = ({ dataName, dataAppStoreUrl, dataGooglePlayUrl }) => {
+const proxy = ({
+  dataName,
+  dataAppStoreUrl,
+  dataGooglePlayUrl,
+  dataTarget,
+}) => {
   return (
     <Widget
       name={dataName}
       appStoreUrl={dataAppStoreUrl}
       googlePlayUrl={dataGooglePlayUrl}
+      target={dataTarget}
+      rel="noopener noreferrer"
     />
   );
 };

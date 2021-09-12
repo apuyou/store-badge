@@ -37,7 +37,7 @@
   "dependencies": {
     "preact": "^10.5.13",
     "preact-habitat": "^3.1.0",
-    "react-store-badge": "^2.0.0"
+    "react-store-badge": "^3.0.0"
   },
   "jest": {
     "verbose": true,

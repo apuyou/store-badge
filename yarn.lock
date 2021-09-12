@@ -8212,10 +8212,10 @@ react-refresh@0.8.3:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
-react-store-badge@^2.0.0:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/react-store-badge/-/react-store-badge-2.0.1.tgz#639b98bae12483b20b28babc59216deaef1c8955"
-  integrity sha512-COyW0W+N7C41ROaTAponcfg5P825WJo6hcBQQz018Cvbc+gKM0AHaCkXN5fiYIMEu0I+U3hMDSy8HKt/9v/XQA==
+react-store-badge@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/react-store-badge/-/react-store-badge-3.0.0.tgz#d489e5d0c33b9615ab9bc0ab6825aaefee8d474a"
+  integrity sha512-z7GNB/Qj5Q+lE+0ATWNwUzY7/1qjrVufSq9MoRJSIa+iqQ909HMoWfZTcriHhG8hWInI8oIBxzZudzGmgWoBZA==
 
 read-pkg-up@^1.0.1:
   version "1.0.1"

@@ -22,10 +22,21 @@ If the browser is an iPhone or iPad, only the App Store badge will be displayed.
   data-google-play-url="https://play.google.com/store/apps/details?id=fr.puyou.cheerswipe"
   data-app-store-url="https://apps.apple.com/us/app/cheerswipe/id1468158095?ls=1"
 ></div>
-<script async src="https://cdn.jsdelivr.net/npm/store-badge@1/build/bundle.js"></script>
+<script
+  async
+  src="https://cdn.jsdelivr.net/npm/store-badge@1/build/bundle.js"
+></script>
 ```
 
 See [demo](https://apuyou.github.io/store-badge/demo)
+
+## Target
+
+If you want to open the store page in a new tab (this is mostly useful on desktop), add:
+
+```html
+data-target="_blank"
+```
 
 ## Customization
 
